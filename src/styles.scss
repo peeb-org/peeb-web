@@ -1,0 +1,7 @@
+@use '~@angular/material' as mat;
+@include mat.core();
+@import './theming/peeb.theme';
+@include mat.all-component-themes($peeb-theme);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
