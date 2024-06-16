@@ -1,12 +1,12 @@
 import { RouterModule, Routes } from '@angular/router';
+import { EmptyLayoutComponent } from './modules/shared/layouts/empty-layout/empty-layout.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NgModule } from '@angular/core';
-import { StandardLayoutComponent } from './modules/shared/layouts/standard-layout/standard-layout.component';
 
 const routes: Routes = [
     {
         path: '',
-        component: StandardLayoutComponent,
+        component: EmptyLayoutComponent,
         children: [
             {
                 path: '',

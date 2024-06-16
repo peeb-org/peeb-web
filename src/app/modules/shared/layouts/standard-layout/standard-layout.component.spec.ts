@@ -13,7 +13,7 @@ describe('StandardLayoutComponent', () => {
         fixture.detectChanges();
     });
 
-    it('should create component', () => {
+    it('should create', () => {
         expect(fixture.componentInstance).toBeTruthy();
     });
 });

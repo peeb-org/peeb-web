@@ -14,7 +14,7 @@ describe('AppComponent', () => {
         fixture = TestBed.createComponent(AppComponent);
     });
 
-    it('should create component', () => {
+    it('should create', () => {
         expect(fixture.componentInstance).toBeTruthy();
     });
 });

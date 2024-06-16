@@ -30,7 +30,7 @@ describe('LoadingBarInterceptor', () => {
         httpTestingController = TestBed.inject(HttpTestingController);
     });
 
-    it('should create interceptor', () => {
+    it('should create', () => {
         expect(interceptor).toBeTruthy();
     });
 

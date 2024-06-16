@@ -17,7 +17,7 @@ describe('LoadingBarComponent', () => {
         loadingBarService = TestBed.inject(LoadingBarService);
     });
 
-    it('should create component', () => {
+    it('should create', () => {
         expect(fixture.componentInstance).toBeTruthy();
     });
 

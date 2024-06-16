@@ -1,0 +1,27 @@
+#header { overflow: hidden; padding: 110px; position: relative; text-align: center; }
+#header::before { background: url(../../../assets/images/logos/discord.svg) no-repeat; background-size: contain; content: ''; display: block; height: 387px; left: 60%; opacity: .2; position: absolute; top: 70px; transform: rotate(15deg); width: 600px; }
+#header .headline h1 { font-size: 56px; font-weight: 700; line-height: 1; margin: 0 0 15px; }
+#header .headline h2 { font-weight: 300; line-height: 1; margin: 0; }
+#header .start { margin: 50px 0 0; }
+#home { display: flex; flex-direction: column; margin: auto; max-width: 1080px; padding: 16px 0; width: 75%; }
+#home .highlights { display: flex; flex-direction: row; margin: 50px 0; }
+#home .highlights .highlight { margin: 0 0 0 2%; width: 32%; }
+#home .highlights .highlight:first-child { margin-left: 0; }
+#home .highlights .highlight h2 { font-size: 25px; font-weight: 400; margin: 0 0 16px; }
+#home .highlights .highlight p { font-size: 16px; font-weight: 400; line-height: 28px; margin: 0 0 24px; }
+#home .features { display: flex; flex-direction: row; flex-wrap: wrap; margin: 50px 0; }
+#home .features .header { display: flex; justify-content: space-between; margin: 0 0 16px; width: 100%; }
+#home .features .header h2 { font-size: 25px; font-weight: 400; margin: 0; }
+#home .features .header a { align-items: center; font-size: 16px; display: inline-flex; line-height: 1; }
+#home .features .feature { font-size: 18px; margin: 0 0 0 2%; text-align: center; width: 32%; }
+#home .features .feature:first-of-type { margin-left: 0; }
+#home .features .feature .img-container { margin: 0 0 16px; max-height: 200px; overflow: hidden; }
+#home .features .feature .img-container img { transition: .3s ease-in-out; width: 100%; }
+#home .features .feature:hover img { transform: scale(1.1); }
+#support { margin: 0 auto; padding: 18px 0 58px; width: 75%; }
+#support ul { display: flex; justify-content: center; list-style: none; margin: 0; }
+#support ul li { margin: 0 2%; text-align: center; }
+#support ul li a { font-size: 16px; font-weight: 500; }
+#support ul li a:active, #support ul li a:hover { text-decoration: underline; }
+#support ul li a img { display: block; height: 50px; margin: 10px auto; width: 50px; }
+#support ul li .description { font-size: 14px; margin: 5px 0 0; }

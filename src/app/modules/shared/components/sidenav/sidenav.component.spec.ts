@@ -1,15 +1,15 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { HomePageComponent } from './home-page.component';
+import { SidenavComponent } from './sidenav.component';
 
-describe('HomePageComponent', () => {
-    let fixture: ComponentFixture<HomePageComponent>;
+describe('SidenavComponent', () => {
+    let fixture: ComponentFixture<SidenavComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [HomePageComponent],
+            declarations: [SidenavComponent],
         }).compileComponents();
 
-        fixture = TestBed.createComponent(HomePageComponent);
+        fixture = TestBed.createComponent(SidenavComponent);
         fixture.detectChanges();
     });
 

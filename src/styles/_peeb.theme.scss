@@ -1,0 +1,17 @@
+@use '~@angular/material' as mat;
+@import 'peeb.palette';
+
+$peeb-primary: mat.define-palette($lightblue-palette);
+$peeb-accent: mat.define-palette($red-palette);
+$peeb-warn: mat.define-palette(mat.$red-palette);
+
+$peeb-theme: (
+    color: (
+        primary: $peeb-primary,
+        accent: $peeb-accent,
+        warn: $peeb-warn,
+        is-dark: true,
+        background: $dark-theme-background-palette,
+        foreground: $dark-theme-foreground-palette,
+    ),
+);

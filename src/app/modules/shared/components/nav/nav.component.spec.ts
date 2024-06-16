@@ -1,15 +1,15 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { HomePageComponent } from './home-page.component';
+import { NavComponent } from './nav.component';
 
-describe('HomePageComponent', () => {
-    let fixture: ComponentFixture<HomePageComponent>;
+describe('NavComponent', () => {
+    let fixture: ComponentFixture<NavComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [HomePageComponent],
+            declarations: [NavComponent],
         }).compileComponents();
 
-        fixture = TestBed.createComponent(HomePageComponent);
+        fixture = TestBed.createComponent(NavComponent);
         fixture.detectChanges();
     });
 

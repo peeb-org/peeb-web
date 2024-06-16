@@ -1,0 +1,82 @@
+@use 'sass:map';
+@use '~@angular/material' as mat;
+
+$lightblue-palette: (
+    50: #ffffff,
+    100: #ffffff,
+    200: #ffffff,
+    300: #d2e9f9,
+    400: #b7dcf6,
+    500: #9ccff2,
+    600: #81c2ee,
+    700: #66b5eb,
+    800: #4ba8e7,
+    900: #309be4,
+    A100: #ffffff,
+    A200: #ffffff,
+    A400: #c4e6fc,
+    A700: #b0daf7,
+    contrast: (
+        50: #000000,
+        100: #000000,
+        200: #000000,
+        300: #000000,
+        400: #000000,
+        500: #000000,
+        600: #000000,
+        700: #000000,
+        800: #000000,
+        900: #000000,
+        A100: #000000,
+        A200: #000000,
+        A400: #000000,
+        A700: #000000,
+    )
+);
+
+$red-palette: (
+    50: #ffffff,
+    100: #fff0f0,
+    200: #ffb8b8,
+    300: #ff7070,
+    400: #ff5252,
+    500: #ff3333,
+    600: #ff1414,
+    700: #f50000,
+    800: #d60000,
+    900: #b80000,
+    A100: #ffffff,
+    A200: #ffcccc,
+    A400: #ff6666,
+    A700: #ff4d4d,
+    contrast: (
+        50: #000000,
+        100: #000000,
+        200: #000000,
+        300: #000000,
+        400: #000000,
+        500: #ffffff,
+        600: #ffffff,
+        700: #ffffff,
+        800: #ffffff,
+        900: #ffffff,
+        A100: #000000,
+        A200: #000000,
+        A400: #000000,
+        A700: #000000,
+    )
+);
+
+$dark-theme-background-palette: map.merge(
+    mat.$dark-theme-background-palette,
+    (
+        app-bar: #1e1f23,
+        background: #242529,
+    ),
+);
+
+$dark-theme-foreground-palette: map.merge(
+    mat.$dark-theme-foreground-palette,
+    (
+    ),
+);

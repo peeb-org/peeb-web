@@ -1,1 +1,65 @@
-Hello World
+<header id="header">
+    <div class="headline">
+        <h1>Peeb</h1>
+        <h2>A Discord bot for Final Fantasy XIV servers</h2>
+    </div>
+    <div class="start">
+        <a mat-raised-button routerLink="/invite">Get Started</a>
+    </div>
+</header>
+<main id="home">
+    <div class="highlights">
+        <div class="highlight">
+            <h2>New</h2>
+            <p>We are all sprouts once, and like most sprouts, Peeb is getting better all the time! Take a look at some of Peeb's <a routerLink="/features">features</a>.</p>
+        </div>
+        <div class="highlight">
+            <h2>For us, by us</h2>
+            <p>We use Peeb every day to help run our own Final Fantasy XIV server. What we find useful, hopefully you will too!</p>
+        </div>
+        <div class="highlight">
+            <h2>Open Source</h2>
+            <p>
+                All of Peeb's source code is available on <a href="https://github.com/peeb-org">GitHub</a> under the
+                <a href="https://github.com/peeb-org/peeb-bot/blob/main/LICENSE">GNU License v3.0</a>, including the source code for this website!
+            </p>
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="features">
+        <div class="header">
+            <h2>Features</h2>
+            <a routerLink="/features">View all features <mat-icon>chevron_right</mat-icon></a>
+        </div>
+        <a class="feature" routerLink="/features/save-character">
+            <div class="img-container">
+                <img alt="Save Character" src="../../../assets/images/features/change-nickname.png" />
+            </div>
+            Change Nickname
+        </a>
+        <a class="feature" routerLink="/features/save-character">
+            <div class="img-container">
+                <img alt="Save Character" src="../../../assets/images/features/add-character-role.png" />
+            </div>
+            Add Character Role
+        </a>
+        <a class="feature" routerLink="/features/save-character">
+            <div class="img-container">
+                <img alt="Save Character" src="../../../assets/images/features/add-cross-world-linkshell-role.png" />
+            </div>
+            Add Cross-World Linkshell Role
+        </a>
+    </div>
+</main>
+<div id="support">
+    <ul>
+        <li>
+            <a href="https://discord.gg/peeb"><img alt="Discord" src="../../../assets/images/logos/discord.svg" />Discord</a>
+            <div class="description">Peeb community on Discord</div>
+        </li>
+        <li>
+            <a href="https://github.com/peeb-org"><img alt="Discord" src="../../../assets/images/logos/github.png" />GitHub</a>
+            <div class="description">Peeb source code on GitHub</div>
+        </li>
+    </ul>
+</div>

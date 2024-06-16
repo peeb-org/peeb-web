@@ -1,15 +1,15 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { HomePageComponent } from './home-page.component';
+import { EmptyLayoutComponent } from './empty-layout.component';
 
-describe('HomePageComponent', () => {
-    let fixture: ComponentFixture<HomePageComponent>;
+describe('EmptyLayoutComponent', () => {
+    let fixture: ComponentFixture<EmptyLayoutComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [HomePageComponent],
+            declarations: [EmptyLayoutComponent],
         }).compileComponents();
 
-        fixture = TestBed.createComponent(HomePageComponent);
+        fixture = TestBed.createComponent(EmptyLayoutComponent);
         fixture.detectChanges();
     });
 
